@@ -1,7 +1,7 @@
 FROM busybox:latest
 MAINTAINER Philipz <philipzheng@gmail.com>
 
-ADD ./confd /bin
+ADD ./confd /bin/
 RUN chmod +x /bin/confd
 
 RUN mkdir -p /etc/confd/conf.d
